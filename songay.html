@@ -6,10 +6,10 @@
 </head>
 <body>
 <input id="thang" type="number"> Nhập tháng </input>
-    <button onclick="fc()"> Hiện số ngày </button>
+<button onclick="fc()"> Hiện số ngày </button>
 <script>
-    let x = document.getElementById("thang");
     function fc() {
+        let x = parseInt(document.getElementById("thang").value);
         switch (x) {
         case 1:
         case 3:
